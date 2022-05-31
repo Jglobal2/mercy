@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Montserrat:wght@100&family=Sacramento&family=Ubuntu:wght@300&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #a1c3ff; 
+}
+
+.img{
+     max-width: 100%;
+}
+
+h1, h2 {
+    margin-bottom: 15px;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.navbar{
+    background-color: #3474e6;
+    color: white;
+    height: 60px;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+.logo{
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    
+    
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar a:hover{
+    color: lightblue;
+}
+.navbar ul li{
+    margin-left: 20px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+ 
+
+
+
+header{
+    background-color: #0151cc;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+}
+
+header .mercy-pic{
+    
+    width: 250px;
+    height: ;
+    border-radius: 400px;
+    padding: 20px;  
+    
+}
+
+header .cloud-one{
+    position: absolute;
+    right: 1rem;
+    width: 70px;
+    padding: 20px;
+    margin: 0;
+}
+
+header .cloud-two{
+    position: relative;
+    right: 1000px;
+    top: 370px;
+    width: 70px;
+    padding: 10px;
+    margin: 0;
+}
+
+
+.boxes .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    flex: 1;
+    background: #0151cc;
+    color: white;
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px lightyellow;
+    padding: 20px 30px;
+}
+
+.designs{
+    float: left;
+    width: 30%;
+    padding: 15px;
+}
+
+.clr{
+    clear: both;
+}
+
+
+.main-footer{
+     background-color: #0151cc;;
+     color: #fff;
+     text-align: center;
+     padding: 20px;
+     margin-top: 40px;
+}
+
+
+
+
+
+@media  (max-width: 768px) {
+
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Montserrat:ital,wght@0,100;0,500;1,100&family=Sacramento&family=Ubuntu:wght@300&display=swap');
+
+
+
+    header .container{
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+
+    }
+
+.boxes .container{
+    display: block;
+    text-align: center;
+}
+header img{
+    
+    width: 200px;
+    border-radius: 400px;
+    position: relative;
+    left: 100px;
+
+}
+
+header .cloud-one{
+    position: relative;
+    left: 370px;
+    bottom: 570px;
+    width: 70px;
+    padding: 10px;
+    margin: 0;
+}
+
+header .cloud-two{
+    position: absolute;
+    left: 50px;
+    top: 650px;
+    width: 70px;
+    padding: 10px;
+    margin: 0;
+}
+
+.designs{
+    width: 70%;
+    float: none;
+    margin: 20px;
+}
+
+.designs-box{
+    text-align: center;
+
+}
+
+.Talks{
+    padding: 20px;
+    border: 1px solid dotted;
+    text-align: justify;
+}
+.designs{
+    text-align: justify;
+}
+
+.mercy{
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+}
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18;
+    color: rgb(73, 45, 199);
+    
+
+}
+
+
+hr{
+    border: dotted #5474a5 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 30px auto;
+    padding: 2px;
+}
+
+.lastp{
+    font-family: 'Ubuntu' san-serif;
+    color: white;
+    font-weight: 100;
+}
+
+.sinzu-logo{
+    position: absolute;
+    width: 29px;
+    top: 19px;
+}
